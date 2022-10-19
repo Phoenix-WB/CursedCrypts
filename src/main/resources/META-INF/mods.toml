@@ -1,0 +1,45 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT"
+
+[[mods]]
+modId="cursedcrypts"
+version="${file.jarVersion}"
+displayName="Cursed Crypts"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="cursedcrypts.png"
+credits="Join my server for more development!: https://discord.gg/ykpkRJR9Kk"
+authors="Phoenix_WB"
+
+description='''
+A spookyjam 2022 mod adding in some spooky skeletal crypts around your world!
+'''
+
+[[dependencies.cursedcrypts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cursedcrypts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cursedcrypts]]
+    modId="structure_gel"
+    mandatory=true
+    versionRange="[2.7.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cursedcrypts]]
+    modId="geckolib3"
+    mandatory=true
+    versionRange="[3.1.27,)"
+    ordering="AFTER"
+    side="BOTH"
+

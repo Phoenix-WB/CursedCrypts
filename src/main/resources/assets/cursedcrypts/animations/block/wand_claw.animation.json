@@ -1,0 +1,66 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wand_claw.hold": {
+			"loop": true,
+			"animation_length": 5.92,
+			"bones": {
+				"cursedclaw": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"upperhand": {
+					"rotation": {
+						"vector": [-25, 0, 0]
+					},
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"pinky": {
+					"rotation": {
+						"vector": [-89.22189, 74.98568, 89.68284]
+					}
+				},
+				"ring": {
+					"rotation": {
+						"vector": [-89.00973, 74.98286, 89.5533]
+					}
+				},
+				"middle": {
+					"rotation": {
+						"vector": [-89.43278, 72.48928, 89.77014]
+					}
+				},
+				"index": {
+					"rotation": {
+						"vector": [-89.88834, 77.49765, 89.97345]
+					}
+				},
+				"thumb": {
+					"rotation": {
+						"vector": [0, 0, 85]
+					}
+				},
+				"wand": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"5.92": {
+							"vector": [0, 360, 0]
+						}
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*60) + 4", 0]
+					},
+					"scale": {
+						"vector": [0.5, 0.5, 0.5]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

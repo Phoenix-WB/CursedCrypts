@@ -1,0 +1,8 @@
+{
+  "type": "cursedcrypts:cursed_crypt",
+  "config": {
+  },
+  "biomes": "#cursedcrypts:has_structure/cursed_crypt_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {}
+}

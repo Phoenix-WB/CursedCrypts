@@ -1,0 +1,19 @@
+{
+  "name": "cursedcrypts:cursed_crypt_start_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "cursedcrypts:cursed_crypt",
+
+        "processors": "cursedcrypts:randomise_crypt",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

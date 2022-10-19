@@ -1,0 +1,90 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "cursedclaw",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [-2, 0, 2.5], "size": [4, 1, 2], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "upperhand",
+					"parent": "cursedclaw",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 0, -2], "size": [5, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "pinky",
+					"parent": "upperhand",
+					"pivot": [-1.9, 0.5, -1.675],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-4.325, 0, -2.175], "size": [1.7, 1, 1], "uv": [6, 10]},
+						{"origin": [-5.425, 0, -2.175], "size": [1, 1, 1], "uv": [0, 2]}
+					]
+				},
+				{
+					"name": "ring",
+					"parent": "upperhand",
+					"pivot": [-0.6, 0.5, -1.725],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-3.975, 0, -2.225], "size": [2.7, 1, 1], "uv": [0, 10]},
+						{"origin": [-5.075, 0, -2.225], "size": [1, 1, 1], "uv": [10, 10]}
+					]
+				},
+				{
+					"name": "middle",
+					"parent": "upperhand",
+					"pivot": [0.7, 0.5, -1.65],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-3.05, 0, -2.15], "size": [3, 1, 1], "uv": [0, 8]},
+						{"origin": [-4.15, 0, -2.15], "size": [1, 1, 1], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "index",
+					"parent": "upperhand",
+					"pivot": [2, 0.5, -1.725],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-1.375, 0, -2.225], "size": [2.7, 1, 1], "uv": [8, 8]},
+						{"origin": [-2.475, 0, -2.225], "size": [1, 1, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "thumb",
+					"parent": "upperhand",
+					"pivot": [-2.04227, 0.5, 0.04014],
+					"rotation": [0, -10, 0],
+					"cubes": [
+						{"origin": [-4.92432, 0, -0.69774], "size": [2, 1, 1], "uv": [10, 5]},
+						{"origin": [-6.02432, 0, -0.69774], "size": [1, 1, 1], "uv": [4, 12]}
+					]
+				},
+				{
+					"name": "wand",
+					"parent": "cursedclaw",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [-8, 5, 0], "size": [16, 16, 0], "uv": [0, 14]}
+					]
+				}
+			]
+		}
+	]
+}

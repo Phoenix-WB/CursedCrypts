@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": {"model": "cursedcrypts:block/cursed_claw"},
+		"facing=east": {"model": "cursedcrypts:block/cursed_claw", "y": 90},
+		"facing=south": {"model": "cursedcrypts:block/cursed_claw", "y": 180},
+		"facing=west": {"model": "cursedcrypts:block/cursed_claw", "y": 270}
+	}
+}

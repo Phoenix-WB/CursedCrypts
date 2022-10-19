@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "cursedcrypts:cursed_crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1229171500,
+
+    "spacing": 42,
+    "separation": 24
+  }
+}

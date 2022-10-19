@@ -1,0 +1,10 @@
+{
+	"item.cursedcrypts.cursed_wand": "Cursed Wand",
+	
+	"block.cursedcrypts.cursed_claw": "Cursed Claw",
+	"block.cursedcrypts.wand_claw": "Wand Claw",
+	
+	"effect.cursedcrypts.bone_grasp": "Bone Grasp",
+	
+	"itemGroup.cursed_crypts": "Cursed Crypts"
+}
