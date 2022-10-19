@@ -1,46 +1,16 @@
-
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
-
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
-
-Setup Process:
-==============================
-
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: https://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+<p><span style="font-size: 14px;">Requires&nbsp;<a style="font-size: 14px;" href="https://www.curseforge.com/minecraft/mc-mods/geckolib">Geckolib</a>&nbsp;and&nbsp;<a style="font-size: 14px;" href="https://www.curseforge.com/minecraft/mc-mods/structure-gel-api">Structure Gel API</a></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px;">A mod made for <a style="font-size: 18px;" href="https://spooky-jam.com/"><strong>Spooky Jam</strong></a> 2022 adding in a new dangerous and mob filled cursed crypt structure, ridden with cursed claws, where you can find yourself a wand to summon some spooky skeletal hands to trap mobs for you!</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;"><strong>Cursed Crypt</strong></span></p>
+<p><span style="font-size: 18px;">A structure with a few skeletal mobs lurking inside. Watch out for cursed claws on the ground, and break the claw in the final room to get yourself a cursed wand.</span></p>
+<p><img src="https://cdn.modrinth.com/data/8XKoLcjD/images/44b2f2fa331da234ee70a45cfbef55ba8f46f870.png" width="422" height="234" /><img src="https://media.forgecdn.net/attachments/thumbnails/507/142/310/172/2022-10-17_23.png" alt="" width="421" height="302" /></p>
+<p><span style="font-size: 24px;">&nbsp;</span>&nbsp;</p>
+<p><span style="font-size: 24px;"><strong>Cursed Wand</strong></span></p>
+<p><span style="font-size: 18px;">Right-click with the wand on block surfaces to place cursed claws atop them. It's durability doesn't last too long, though it can easily be repaired with bone blocks!</span></p>
+<p><span style="text-decoration: underline;"><strong><img src="https://media.forgecdn.net/attachments/thumbnails/507/107/310/172/2022-10-17_21.png" alt="" width="195" height="172" /></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px;"><em>Preview:</em></span></p>
+<p><iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/oTQftQA74X0?wmode=transparent" height="358" width="638"></iframe>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px;"><i>Join my discord&nbsp;<a style="font-size: 18px;" href="https://discord.com/invite/ykpkRJR9Kk">here</a> for other mod development.</i></span></p>
