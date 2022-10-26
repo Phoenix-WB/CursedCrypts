@@ -6,9 +6,9 @@ license="MIT"
 modId="cursedcrypts"
 version="${file.jarVersion}"
 displayName="Cursed Crypts"
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/cursed-crypts"
 logoFile="cursedcrypts.png"
-credits="Join my server for more development!: https://discord.gg/ykpkRJR9Kk"
+credits="Join my modding server for other mod development!: https://discord.gg/ykpkRJR9Kk"
 authors="Phoenix_WB"
 
 description='''

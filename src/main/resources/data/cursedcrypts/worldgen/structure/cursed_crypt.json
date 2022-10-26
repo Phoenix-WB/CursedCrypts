@@ -7,7 +7,7 @@
   "step": "underground_structures",
   "terrain_adaptation": "bury",
   "start_height": {
-    "absolute": -14
+    "absolute": -20
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "use_expansion_hack": false,

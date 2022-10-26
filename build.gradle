@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '1.0'
+version = '1.1.0'
 group = 'com.phoenix_wb.cursedcrypts'
 archivesBaseName = 'cursedcrypts'
 
@@ -112,7 +112,7 @@ jar {
         attributes([
                 "Specification-Title"     : "cursedcrypts",
                 "Specification-Vendor"    : "phoenix_wb",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Specification-Version"   : "1.1.0", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "phoenix_wb",
