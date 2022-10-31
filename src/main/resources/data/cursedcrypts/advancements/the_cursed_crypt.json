@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone_block"
+    },
+    "title": {
+      "translate": "advancements.cursedcrypts.find_crypt_title"
+    },
+    "description": {
+      "translate": "advancements.cursedcrypts.find_crypt_desc"
+    },
+    "background": "minecraft:textures/block/bone_block_side.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crypt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cursedcrypts:cursed_crypt"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crypt"
+    ]
+  ]
+}

@@ -6,5 +6,10 @@
 	
 	"effect.cursedcrypts.bone_grasp": "Bone Grasp",
 	
-	"itemGroup.cursed_crypts": "Cursed Crypts"
+	"itemGroup.cursed_crypts": "Cursed Crypts",
+	
+	"advancements.cursedcrypts.find_crypt_title": "The Crypt",
+	"advancements.cursedcrypts.find_crypt_desc": "Find a Cursed Crypt.",
+	"advancements.cursedcrypts.find_claw_title": "A Decrepit Bone",
+	"advancements.cursedcrypts.find_claw_desc": "The imprecated wand serves a new claw."
 }

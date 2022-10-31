@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "cursedcrypts:cursed_wand"
+    },
+    "title": {
+      "translate": "advancements.cursedcrypts.find_claw_title"
+    },
+    "description": {
+      "translate": "advancements.cursedcrypts.find_claw_desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursedcrypts:the_cursed_crypt",
+  "criteria": {
+    "cursed_wand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cursedcrypts:cursed_wand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cursed_wand"
+    ]
+  ]
+}
