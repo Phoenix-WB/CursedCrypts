@@ -1,0 +1,15 @@
+{
+	"item.cursedcrypts.cursed_wand": "诅咒魔骨",
+	
+	"block.cursedcrypts.cursed_claw": "诅咒骨掌",
+	"block.cursedcrypts.wand_claw": "魔骨掌",
+	
+	"effect.cursedcrypts.bone_grasp": "骨缚",
+	
+	"itemGroup.cursed_crypts": "诅咒墓穴",
+	
+	"advancements.cursedcrypts.find_crypt_title": "掘墓人",
+	"advancements.cursedcrypts.find_crypt_desc": "进入诅咒墓穴",
+	"advancements.cursedcrypts.find_claw_title": "掌中掌",
+	"advancements.cursedcrypts.find_claw_desc": "诅咒魔骨被新的手掌继承！！"
+}

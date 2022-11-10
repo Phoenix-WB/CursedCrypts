@@ -23,7 +23,7 @@ public class CursedWandItem extends BlockItem implements Vanishable {
 	public CursedWandItem(Properties pProperties) {
 		super(BlockInit.CURSED_CLAW.get(), pProperties);
 	}
-
+	
 	@Override
 	public InteractionResult place(BlockPlaceContext pContext) {
 		if (!pContext.canPlace()) {
